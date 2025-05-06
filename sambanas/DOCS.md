@@ -181,7 +181,7 @@ Enables mounting of `moredisk` by the host and not by the container.
 
 NOTE<sup>1</sup>: It works only and only on HassOS on other hosts it is not tested and most likely it does not work.
 
-NOTE<sup>2</sup>: It is necessary to enable the access to the SSH port 22222 of the host. Read the HassOS [Developers Documentation](https://developers.home-assistant.io/docs/operating-system/debugging/#home-assistant-operating-system) or use the [Configutarion Addon](https://community.home-assistant.io/t/add-on-hassos-ssh-port-22222-configurator/264109).
+NOTE<sup>2</sup>: It is necessary to enable the access to the SSH port 22222 of the host. Read the HassOS [Developers Documentation](https://developers.home-assistant.io/docs/operating-system/debugging/#home-assistant-operating-system) or use the [Configuration Addon](https://community.home-assistant.io/t/add-on-hassos-ssh-port-22222-configurator/264109).
 
 NOTE<sup>3</sup>: It is necessary to pass the SSH private key for root access to the host. Be sure to use secrets files to protect the key from people who don't have access to it.
 
